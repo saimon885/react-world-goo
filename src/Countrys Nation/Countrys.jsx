@@ -7,7 +7,7 @@ const Countrys = ({CountyPromice}) => {
     // console.log(Countrys);
     return (
         <>
-            <div className='grid grid-cols-3 mx-20'>
+            <div className='grid grid-cols-1 mx-10 md:mx-20 md:grid-cols-3'>
                 {
                 Countrys.map(country => <Country key={country.cca3.cca3} country={country}></Country>)
             }

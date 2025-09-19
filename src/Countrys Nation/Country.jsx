@@ -5,8 +5,8 @@ const Country = ({ country }) => {
   const CountryFlag = country.population.population;
   //   console.log(CountryFlag);
   return (
-    <div className="border p-4 m-2 flex items-center gap-10">
-      <img className="w-5/12" src={country.flags.flags.png} alt="" />
+    <div className="border p-4 m-2 md:flex md:items-center md:gap-10">
+      <img className=" w-7/12 md:w-5/12 mx-auto" src={country.flags.flags.png} alt="" />
       <div>
         <h2>
           <span className="font-bold">Country Name : </span>
